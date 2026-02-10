@@ -3,56 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded PDF Example</title>
+    <title>Kelvin's Space</title>
     <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-muted: #666666;
+        }
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f7f7f7;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
         }
-        .main-content {
-            max-width: 700px;
-            margin: 40px auto;
-            padding: 32px 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        header {
+            background: var(--card-bg);
+            padding: 60px 20px;
             text-align: center;
+            border-bottom: 1px solid #eaeaea;
         }
-        .section-link {
-            display: inline-block;
-            margin: 24px 0;
-            padding: 16px 32px;
-            background: #1976d2;
-            color: #fff;
-            border-radius: 6px;
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            margin: 0 0 16px 0;
+            font-size: 2.5em;
+            color: var(--primary);
+        }
+        .subtitle {
+            font-size: 1.25em;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 24px auto;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: var(--accent);
             text-decoration: none;
-            font-size: 1.2em;
-            transition: background 0.2s;
+            font-weight: 500;
         }
-        .section-link:hover {
-            background: #125ea2;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+        }
+        .card-icon {
+            font-size: 2em;
+            margin-bottom: 16px;
+            background: #eef7ff;
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: var(--accent);
+        }
+        .card h2 {
+            margin: 0 0 12px 0;
+            font-size: 1.5em;
+            color: var(--primary);
+        }
+        .card p {
+            margin: 0;
+            color: var(--text-muted);
+            font-size: 0.95em;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+            font-size: 0.9em;
+            border-top: 1px solid #eaeaea;
+            margin-top: 60px;
         }
         @media (max-width: 600px) {
-            .main-content {
-                max-width: 98vw;
-                margin: 12px auto;
-                padding: 10px 2vw;
-            }
-            .section-link {
-                width: 90vw;
-                font-size: 1em;
-                padding: 12px 0;
-            }
+            header { padding: 40px 20px; }
+            h1 { font-size: 2em; }
         }
     </style>
 </head>
 <body>
-    <div class="main-content">
-        <h1>Welcome to My Site</h1>
-        <p>Explore the available sections below:</p>
-        <a class="section-link" href="math/">Math PDFs</a>
+
+<header>
+    <h1>Hi, I'm Kelvin.</h1>
+    <p class="subtitle">Exploring the intersection of Mathematics and Computer Science.</p>
+    <div class="social-links">
+        <a href="https://github.com/knmanaa">GitHub</a> &bull;
+        <a href="mailto:knmanaa@gmail.com">Contact</a>
     </div>
+</header>
+
+<div class="container">
+    <div class="grid">
+        <!-- CS Section -->
+        <a href="cs/index.html" class="card">
+            <div class="card-icon">💻</div>
+            <h2>Computer Science</h2>
+            <p>Dive into my coding projects, algorithms, and software development notes. Featuring web dev, scripts, and more.</p>
+        </a>
+
+        <!-- Math Section -->
+        <a href="math/index.html" class="card">
+            <div class="card-icon">∫dx</div>
+            <h2>Mathematics</h2>
+            <p>A collection of mathematical resources, PDFs, and deep dives into statistics, linear regression, and calculus.</p>
+        </a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Kelvin. All rights reserved. <br>
+    Built with simple HTML & CSS.
+</footer>
+
 </body>
 </html>
