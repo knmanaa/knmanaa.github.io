@@ -32,14 +32,15 @@
     <div class="main-content">
         <h1>Mathematics</h1>
         <p>Explore my collection of math resources, PDFs, and notes on various topics.</p>
-        <ul>
-            <li>
-                <a href="linear_regression.html">Linear Regression PDF</a>
-                <a href="https://1drv.ms/b/c/4758d4c8e19c3f79/IQA6jEW9UKMMRa2Is9noECalAamaUwXBkj2whodGobBQqFo?e=XbpW7U" target="_blank" style="margin-left:12px; font-size:0.95em; color:#888; text-decoration:underline;">[Download PDF]</a>
-            </li>
-            <!-- Add more topics here as you create more HTML files -->
+        <ul id="resources-list">
+            <li><em>Loading resources...</em></li>
         </ul>
         <a href="../index.html" class="back-link">&larr; Back to Home</a>
     </div>
+    <script src="../resource/resources.js"></script>
+    <script src="../resource/loader.js"></script>
+    <script>
+        loadResourcesByCategory('Math');
+    </script>
 </body>
 </html>

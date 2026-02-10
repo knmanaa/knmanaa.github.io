@@ -32,11 +32,15 @@
     <div class="main-content">
         <h1>Computer Science</h1>
         <p>Here you will find my CS projects, code snippets, and technical notes.</p>
-        <ul>
-            <!-- Future content -->
-            <li><em>Content coming soon...</em></li>
+        <ul id="resources-list">
+            <li><em>Loading resources...</em></li>
         </ul>
         <a href="../index.html" class="back-link">&larr; Back to Home</a>
     </div>
+    <script src="../resource/resources.js"></script>
+    <script src="../resource/loader.js"></script>
+    <script>
+        loadResourcesByCategory('CS');
+    </script>
 </body>
 </html>
