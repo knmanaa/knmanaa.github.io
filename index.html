@@ -12,43 +12,47 @@
             background: #f7f7f7;
         }
         .main-content {
-            max-width: 900px;
-            margin: 24px auto;
-            padding: 16px;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 32px 20px;
             background: #fff;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
         }
-        .pdf-container {
-            width: 100%;
-            height: 70vh;
-            margin: 0 auto;
+        .section-link {
+            display: inline-block;
+            margin: 24px 0;
+            padding: 16px 32px;
+            background: #1976d2;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: background 0.2s;
         }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-            border-radius: 4px;
+        .section-link:hover {
+            background: #125ea2;
         }
         @media (max-width: 600px) {
             .main-content {
                 max-width: 98vw;
-                margin: 8px auto;
-                padding: 4px;
+                margin: 12px auto;
+                padding: 10px 2vw;
             }
-            .pdf-container {
-                height: 50vh;
+            .section-link {
+                width: 90vw;
+                font-size: 1em;
+                padding: 12px 0;
             }
         }
     </style>
 </head>
 <body>
     <div class="main-content">
-        <h1>View PDF Document</h1>
-        <div class="pdf-container">
-            <iframe src="https://1drv.ms/b/c/4758d4c8e19c3f79/IQQ6jEW9UKMMRa2Is9noECalASUdL86SIa14YrJ1IMb4DY8" allowfullscreen></iframe>
-        </div>
-        <p>If the PDF does not display, <a href="https://1drv.ms/b/c/4758d4c8e19c3f79/IQA6jEW9UKMMRa2Is9noECalAamaUwXBkj2whodGobBQqFo?e=XbpW7U" target="_blank">click here to download it</a>.</p>
+        <h1>Welcome to My Site</h1>
+        <p>Explore the available sections below:</p>
+        <a class="section-link" href="math/">Math PDFs</a>
     </div>
 </body>
 </html>
