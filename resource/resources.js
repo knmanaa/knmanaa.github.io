@@ -12,8 +12,8 @@ const resourcesData = [
         subCategory: "Programming Languages",
         title: "C++",
         fileName: "Intro to C++",
-        embedUrl: "https://1drv.ms/b/c/4758d4c8e19c3f79/IQR5P5zhyNRYIIBHmhsAAAAAAcw4VA1LB8QmMycZM6hJW_s",
-        downloadUrl: "https://1drv.ms/b/c/4758d4c8e19c3f79/IQB5P5zhyNRYIIBHmhsAAAAAAdxpHffTHOWWSUuglbB3nUk?e=oMQuxp"
+        embedUrl: "",
+        downloadUrl: ""
     },
     {
         category: "CS",
