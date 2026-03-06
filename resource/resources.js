@@ -36,13 +36,6 @@ const resourcesData = [
         fileName: "Artificial Intelligence Placeholder",
         embedUrl: "",
         downloadUrl: ""
-    },
-    {
-        category: "CS",
-        subCategory: "COMP4901D",
-        fileName: "Project Proposal pdf",
-        embedUrl: "https://1drv.ms/b/c/4758d4c8e19c3f79/IQR3mHrL3UHNSoEjddY_Bha6Ad0vmRteMhltoR3foU_p8so",
-        downloadUrl: "https://www.canva.com/design/DAHChl1HaBk/C2TbQFcQkqUuRddKtXXXPg/edit?utm_content=DAHChl1HaBk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     }
     // Add more resources here in the same format
 ];
