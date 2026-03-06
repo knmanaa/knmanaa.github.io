@@ -42,7 +42,7 @@ const resourcesData = [
         subCategory: "COMP4901D",
         fileName: "Project Proposal pdf",
         embedUrl: "https://1drv.ms/b/c/4758d4c8e19c3f79/IQR3mHrL3UHNSoEjddY_Bha6Ad0vmRteMhltoR3foU_p8so",
-        downloadUrl: "https://1drv.ms/b/c/4758d4c8e19c3f79/IQB3mHrL3UHNSoEjddY_Bha6AdrrMY68uUc1G9o6LaC7KdY?e=HcOuZ6"
+        downloadUrl: "https://www.canva.com/design/DAHChl1HaBk/C2TbQFcQkqUuRddKtXXXPg/edit?utm_content=DAHChl1HaBk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     }
     // Add more resources here in the same format
 ];
