@@ -40,7 +40,7 @@ const resourcesData = [
     {
         category: "CS",
         subCategory: "COMP4901D",
-        fileName: "Project Proposal",
+        fileName: "Project Proposal pdf",
         embedUrl: "https://1drv.ms/b/c/4758d4c8e19c3f79/IQR3mHrL3UHNSoEjddY_Bha6Ad0vmRteMhltoR3foU_p8so",
         downloadUrl: "https://1drv.ms/b/c/4758d4c8e19c3f79/IQB3mHrL3UHNSoEjddY_Bha6AdrrMY68uUc1G9o6LaC7KdY?e=HcOuZ6"
     }
