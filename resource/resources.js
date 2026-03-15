@@ -36,6 +36,13 @@ const resourcesData = [
         fileName: "Artificial Intelligence Placeholder",
         embedUrl: "",
         downloadUrl: ""
+    },
+    {
+        category: "AI",
+        subCategory: "Agent",
+        fileName: "Search Augmented Agent",
+        embedUrl: "",
+        downloadUrl: "https://1drv.ms/b/c/4758d4c8e19c3f79/IQD0Ss7mt0WOS72L-CO5bUE4AVjaMd9pX_wiv2iW5CNnGWU?e=HqPgIS"
     }
     // Add more resources here in the same format
 ];
